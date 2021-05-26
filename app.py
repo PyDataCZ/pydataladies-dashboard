@@ -4,6 +4,7 @@ import streamlit as st
 
 
 def app():
+    st.title("PyDataLadies Dashboard")
     # vstup 1: výběr datové sady
     data_file_path = st.file_uploader("Data file")
     data = None
