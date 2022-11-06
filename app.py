@@ -7,15 +7,16 @@ def app():
     st.title("PyDataLadies Dashboard")
     # vstup 1: výběr datové sady
     data_file_path = st.file_uploader("Data file")
-    data = None
-    if data_file_path is not None:
-        # read data if user uploads a file
-        data = pd.read_csv(data_file_path)
-        # seek back to position 0 after reading
-        data_file_path.seek(0)
-    if data is None:
-        st.warning("No data loaded")
+
+    if data_file_path is None:
+        st.warning("No data file uploaded")
         return
+
+    # read data if user uploads a file
+    data = pd.read_csv(data_file_path)
+    # seek back to position 0 after reading
+    data_file_path.seek(0)
+
     # vstup 2: výběr parametrů scatter matrix
     dimensions = st.multiselect("Scatter matrix dimensions", list(data.columns), default=list(data.columns))
     color = st.selectbox("Color", data.columns)
