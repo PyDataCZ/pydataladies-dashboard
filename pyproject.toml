@@ -5,7 +5,7 @@ description = ""
 authors = ["Jakub Urban <coobas@gmail.com>"]
 
 [tool.poetry.dependencies]
-python = ">=3.9.8,<3.11"
+python = ">=3.8.10,<3.11,!=3.9.7"
 pandas = ">=1.2.4,<2.0"
 streamlit = "1.14.0"
 plotly = "5.11.0"
