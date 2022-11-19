@@ -1,0 +1,5 @@
+pandas==1.5.1
+streamlit==1.14.0
+plotly==5.11.0
+# fixing https://github.com/protocolbuffers/protobuf/issues/10571
+protobuf==3.20.1
