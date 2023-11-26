@@ -4,16 +4,18 @@ Materiály pro lekci o interaktivních vizualizacích a tvorbě dashboard aplika
 
 ## Příprava
 
-1. Pokud nemáte, vytvořte si účet na GitHubu: https://github.com/signup
-2. Použijte váš GitHub účet pro registraci na Streamlit Cloud: https://share.streamlit.io/signup
-3. Nainstalovat Git:
-   * Nejjednodušší volba je [GitHub Desktop](https://desktop.github.com).
-Případně:
+1. Pokud nemáš, vytvořte si účet na GitHubu: https://github.com/signup
+2. Použij svůj GitHub účet pro registraci na Streamlit Cloud: https://share.streamlit.io/signup
+3. Nainstaluj si Git:
+   * Nejjednodušší volba je [GitHub CLI](https://cli.github.com) nebo [Github Desktop](https://desktop.github.com/).
+
+   Případně:
    * Windows: https://gitforwindows.org/
    * Mac OS: https://sourceforge.net/projects/git-osx-installer/files/ (případně další možnosti popsané na https://www.atlassian.com/git/tutorials/install-git).
    * Linux: Nejspíš tam už bude nebo určitě víš jak na to :)
-4. Alespoň základní konfigurace Gitu.
-   * Pro GitHub Desktop postupujeme dle instrukcí.
+4. Udělej alespoň základní konfiguraci Gitu.
+   * Pro GitHub CLI postupuj dle [instrukcí](https://cli.github.com/manual/).
+     * Mělo by stačit spustit `gh auth login`.
    * Pokud používáte klienta v příkazovém řádku (*vyplňte své jméno a email*):
    ```
    git config --global user.name "Moje Jméno"
