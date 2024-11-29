@@ -7,16 +7,12 @@ Materiály pro lekci o interaktivních vizualizacích a tvorbě dashboard aplika
 1. Pokud nemáš, vytvořte si účet na GitHubu: https://github.com/signup
 2. Použij svůj GitHub účet pro registraci na Streamlit Cloud: https://share.streamlit.io/signup
 3. Nainstaluj si Git:
-   * Nejjednodušší volba je [GitHub CLI](https://cli.github.com) nebo [Github Desktop](https://desktop.github.com/).
-
-   Případně:
-   * Windows: https://gitforwindows.org/
-   * Mac OS: https://sourceforge.net/projects/git-osx-installer/files/ (případně další možnosti popsané na https://www.atlassian.com/git/tutorials/install-git).
-   * Linux: Nejspíš tam už bude nebo určitě víš jak na to :)
+   * Nejjednodušší volba je [GitHub CLI](https://cli.github.com), podrobné instrukce k instalaci [zde](https://github.com/cli/cli?tab=readme-ov-file#installation), případně [Github Desktop](https://desktop.github.com/) pro grafické rozhraní.
+   * Alternativní možnosti najdeš na https://www.atlassian.com/git/tutorials/install-git.
 4. Udělej alespoň základní konfiguraci Gitu.
    * Pro GitHub CLI postupuj dle [instrukcí](https://cli.github.com/manual/).
      * Mělo by stačit spustit `gh auth login`.
-   * Pokud používáte klienta v příkazovém řádku (*vyplňte své jméno a email*):
+   * Pokud používáte klienta v příkazovém řádku:
    ```
    git config --global user.name "Moje Jméno"
    git config --global user.email "muj@email.com"
@@ -35,5 +31,5 @@ Kdyby něco nefungovalo nebylo jasné, tak se hned ptejte v kanále [#poradna](h
 
 ## Materiály
 
-1. [První část](notebooks/dashboardy-1.ipynb), pro zobrazení včetně interaktivních grafů: https://nbviewer.jupyter.org/github/coobas/pydataladies-dashboard/blob/main/notebooks/dashboardy-1.ipynb.
+1. [První část](notebooks/dashboardy-1.ipynb), pro zobrazení včetně interaktivních grafů: [nbviewer](https://nbviewer.jupyter.org/github/PyDataCZ/pydataladies-dashboard/blob/main/notebooks/dashboardy-1.ipynb).
 2. [Druhá část](notebooks/dashboardy-2.ipynb)
