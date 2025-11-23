@@ -39,5 +39,4 @@ Kdyby něco nefungovalo nebylo jasné, tak se hned ptejte v kanále [#poradna](h
 
 ## Materiály
 
-1. [První část](notebooks/dashboardy-1.ipynb), pro zobrazení včetně interaktivních grafů: [nbviewer](https://nbviewer.jupyter.org/github/PyDataCZ/pydataladies-dashboard/blob/main/notebooks/dashboardy-1.ipynb).
-2. [Druhá část](notebooks/dashboardy-2.ipynb)
+[notebooks/dashboardy-1.ipynb](notebooks/dashboardy-1.ipynb), pro zobrazení včetně interaktivních grafů: [nbviewer](https://nbviewer.jupyter.org/github/PyDataCZ/pydataladies-dashboard/blob/main/notebooks/dashboardy-1.ipynb).
