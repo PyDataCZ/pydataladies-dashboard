@@ -4,9 +4,9 @@ Materiály pro lekci o interaktivních vizualizacích a tvorbě dashboard aplika
 
 ## Příprava
 
-1. Pokud nemáš, vytvořte si účet na GitHubu: https://github.com/signup
-2. Použij svůj GitHub účet pro registraci na Streamlit Cloud: https://share.streamlit.io/signup
-3. Nainstaluj si Git:
+1. Pokud nemáš, vytvořte si **účet na GitHubu**: https://github.com/signup
+2. Použij svůj GitHub účet pro **registraci na Streamlit Cloud**: https://share.streamlit.io/signup
+3. **Nainstaluj si Git**:
    * Nejjednodušší volba je [GitHub CLI](https://cli.github.com), podrobné instrukce k instalaci [zde](https://github.com/cli/cli?tab=readme-ov-file#installation), případně [Github Desktop](https://desktop.github.com/) pro grafické rozhraní.
    * Alternativní možnosti najdeš na https://www.atlassian.com/git/tutorials/install-git.
 4. Udělej alespoň základní konfiguraci Gitu.
@@ -25,6 +25,14 @@ Materiály pro lekci o interaktivních vizualizacích a tvorbě dashboard aplika
    ```
    user.name=Moje Jméno
    user.email=muj@email.com
+   ```
+5. **Naklonuj si tento repozitář do svého počítače**:
+   ```
+   gh repo clone PyDataCZ/pydataladies-dashboard
+   ```
+   nebo
+   ```
+   git clone https://github.com/PyDataCZ/pydataladies-dashboard.git
    ```
 
 Kdyby něco nefungovalo nebylo jasné, tak se hned ptejte v kanále [#poradna](https://pydata-kurz-praha.slack.com/archives/CSPRXPJGN).

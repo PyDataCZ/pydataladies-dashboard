@@ -1,0 +1,15 @@
+[project]
+name = "pydataladies-dashboard"
+version = "0.1.0"
+description = "Interactive dashboard application for data visualization using Streamlit"
+requires-python = ">=3.13,<3.14"
+dependencies = [
+    "jupyter>=1.1.1",
+    "pandas>=2.3.3",
+    "plotly>=6.5.0",
+    "streamlit>=1.51.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/PyDataCZ/pydataladies-dashboard"
+Repository = "https://github.com/PyDataCZ/pydataladies-dashboard"
